@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+} 
+
+@font-face {
+    font-family: 'Girassol';
+    src: url(../fonts/Girassol-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'MartelSans-Regular';
+    src: url(../fonts/MartelSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'MartelSans-Bold';
+    src: url(../fonts/MartelSans-Bold.ttf);
+}
+
+html {
+    background-color: #121212;
+}
+
+h1 {
+    font-family: 'Girassol'; serif; 
+    font-size: 84px;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Girassol'; serif; 
+    font-size: 64px;
+    color: #ffffff;
+    padding-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h3 {
+font-family: 'MartelSans-Bold', Arial, Helvetica, sans-serif;
+font-size: 32px;
+color: #ffffff; 
+padding-left: 10%;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+h4 {
+    font-family: 'MartelSans-Bold', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #ffffff; 
+    padding-left: 10%;
+margin-top: 1.5%;
+margin-bottom: 1.5%;
+    }
+
+    p {
+        font-family: 'MartelSans-Regular', Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #ffffff;   
+        padding-left: 10%;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+    }
+
+header {
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-family: 'MartelSans-Bold', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+.navbar li {
+    float: center;
+  }
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navbar li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+.CVsection {
+    margin-bottom: 5%;
+}
+  
+.contenedorExperiencia {
+    max-height: 80%;
+    object-fit: cover;
+    object-position: center center;
+}
