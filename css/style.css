@@ -112,12 +112,12 @@ header {
   
 .gallery-section{
     width: 100%;
-    padding: 60px 0;
+    padding: 20px 0;
   }
   
   .inner-width{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: auto;
     padding: 0 20px;
   }
