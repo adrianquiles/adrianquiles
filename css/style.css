@@ -141,7 +141,7 @@ header {
   }
   
   .gallery-section .image{
-    flex: 25%;
+    flex: 16%;
     overflow: hidden;
     cursor: pointer;
   }
